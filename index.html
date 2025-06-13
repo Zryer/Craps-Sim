@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Craps Simulator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <h1 id="title" class="title">Craps Simulator</h1>
+      <h2 id="statusMessage">Roll The Dice!</h2>
+      <div class="flexContainer">
+        <div class="dice">
+          <img id="img1" src="./images/dice6.png" />
+        </div>
+
+        <div class="dice">
+          <img id="img2" src="./images/dice6.png" />
+        </div>
+      </div>
+      <div class="flexContainer">
+      <button type="button" id="rollButton">Roll</button>
+      </div>
+
+      <div class="bankRollContainer">
+        <p>This is your bankroll</p>
+        <h3 id="bankRoll"></h3>
+      </div>
+      <div class="rollStreakContainer">
+        <p>This is your roll streak</p>
+        <h3 id="rollStreak"></h3>
+      </div>
+      <div class="pointContainer">
+        <p>This is your point</p>
+        <h3 id="point"></h3>
+      </div>
+      <div class="flexContainer">
+        <div id="crapsTable">
+          <div class="crapsNumbers">
+            <Button type="button" class="numberButton">4</Button>
+            <Button type="button" class="numberButton">5</Button>
+            <Button type="button" class="numberButton">6</Button>
+            <Button type="button" class="numberButton">8</Button>
+            <Button type="button" class="numberButton">9</Button>
+            <Button type="button" class="numberButton">10</Button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
