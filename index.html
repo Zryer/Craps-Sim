@@ -11,11 +11,11 @@
       <h1 id="title" class="title">Craps Simulator</h1>
       <h2 id="statusMessage">Roll The Dice!</h2>
       <div class="flexContainer">
-          <img id="img1" class="diceImage" src="./images/dice6.png" />
-          <img id="img2" class="diceImage" src="./images/dice6.png" />
+        <img id="img1" class="diceImage" src="./images/dice6.png" />
+        <img id="img2" class="diceImage" src="./images/dice6.png" />
       </div>
       <div class="flexContainer">
-      <button type="button" id="rollButton">Roll</button>
+        <button type="button" id="rollButton">Roll</button>
       </div>
 
       <div class="bankRollContainer">
@@ -26,21 +26,34 @@
         <p>This is your roll streak</p>
         <h3 id="rollStreak"></h3>
       </div>
+      <div id="totalBetContainer">
+        <p>This is your total bet</p>
+        <h3 id="totalBet">0</h3>
+      </div>
       <div class="pointContainer">
         <p>This is your point</p>
         <h3 id="point"></h3>
       </div>
-      <div class="flexContainer">
-        <div id="crapsTable">
-          <div class="crapsNumbers">
-            <Button type="button" class="numberButton">4</Button>
-            <Button type="button" class="numberButton">5</Button>
-            <Button type="button" class="numberButton">6</Button>
-            <Button type="button" class="numberButton">8</Button>
-            <Button type="button" class="numberButton">9</Button>
-            <Button type="button" class="numberButton">10</Button>
-          </div>
-        </div>
+      <div id="crapsTable">
+        <img class="boardNumbers" id="board4" src="./images/number4.png" />
+        <img class="boardNumbers" id="board5" src="./images/number5.png" />
+        <img class="boardNumbers" id="board6" src="./images/number6.png" />
+        <img class="boardNumbers" id="board8" src="./images/number8.png" />
+        <img class="boardNumbers" id="board9" src="./images/number9.png" />
+        <img class="boardNumbers" id="board10" src="./images/number10.png" />
+        <h4 class="boardBet" id="board4bet">Bet: 0</h4>
+        <h4 class="boardBet" id="board5bet">Bet: 0</h4>
+        <h4 class="boardBet" id="board6bet">Bet: 0</h4>
+        <h4 class="boardBet" id="board8bet">Bet: 0</h4>
+        <h4 class="boardBet" id="board9bet">Bet: 0</h4>
+        <h4 class="boardBet" id="board10bet">Bet: 0</h4>
+        <img class="passLine" src="./images/passlineleft.png" />
+        <img class="passLine" src="./images/passlineempty.png" />
+        <img class="passLine" src="./images/pass.png" />
+        <img class="passLine" src="./images/line.png" />
+        <img class="passLine" src="./images/passlinebet.png" />
+        <img class="passLine" src="./images/passlineright.png" />
+        <h4 class="boardBet" id="passLineBet">Bet: 0</h4>
       </div>
     </div>
 
